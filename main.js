@@ -4,6 +4,9 @@ const navLinks = document.querySelectorAll("nav ul li a");
 const slider = document.querySelectorAll(".slider div");
 const filter = document.querySelectorAll(".filter li");
 const boxes = document.querySelectorAll(".portfolio .boxes-container .box");
+const showSearchOverlay = document.querySelector("header .container nav form");
+const unshowSearchOverlay = document.querySelector(".search-overlay button");
+const searchOverlay = document.querySelector(".search-overlay");
 
 // show nav links when click on bar hamburger
 navBtn.addEventListener("click", () => {
@@ -60,3 +63,11 @@ filter.forEach((btn) =>
     }
   })
 );
+
+showSearchOverlay.addEventListener("click", () => {
+  searchOverlay.classList.remove("close");
+});
+
+unshowSearchOverlay.addEventListener("click", () => {
+  searchOverlay.classList.add("close");
+});
