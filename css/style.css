@@ -18,6 +18,13 @@
   --overlay-text: rgb(0, 199, 252, 0.5);
   --overlay-padding: 30px;
   --offset: calc(29.64px / 2);
+  --selection-background: #aabef3;
+  --selection-text: black;
+}
+
+::selection {
+  background-color: var(--selection-background);
+  color: var(--selection-text);
 }
 
 html {
@@ -55,6 +62,19 @@ ul {
   }
 }
 /* GLOBAL RULES END */
+/* Start Scrollbar */
+body::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+/* End Scrollbar */
 /* Start Components */
 /* * Start Special Heading */
 .special-heading {
