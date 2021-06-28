@@ -465,6 +465,7 @@ header .search-icon {
   background-image: url("../assets/images/owl.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: relative;
   z-index: 1000;
 }
@@ -622,6 +623,7 @@ header .search-icon {
   background-image: url("../assets/images/design-bg.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: relative;
   display: flex;
   z-index: 1;
@@ -992,6 +994,7 @@ a.more:hover {
   background-image: url("../assets/images/statistics.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   z-index: 1;
 }
 
@@ -1231,6 +1234,7 @@ a.more:hover {
   padding: var(--section-padding) 0;
   background-image: url("../assets/images/quote.jpg");
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   z-index: 1;
 }
@@ -1474,6 +1478,7 @@ a.more:hover {
   padding: calc(var(--section-padding) + 30px) 0;
   background-image: url("../assets/images/subscribe.jpg");
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   z-index: 1;
 }
@@ -1677,6 +1682,7 @@ footer {
   position: relative;
   background-image: url("../assets/images/subscribe.jpg");
   background-size: cover;
+  background-attachment: fixed;
   z-index: 1;
   color: white;
   text-align: center;
