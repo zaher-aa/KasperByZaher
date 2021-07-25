@@ -1,3 +1,4 @@
+const home = document.querySelector("section#home");
 const navBtn = document.querySelector(".bars");
 const ul = document.querySelector("header .container nav ul");
 const navLinks = document.querySelectorAll("nav ul li a");
@@ -24,7 +25,7 @@ navLinks.forEach((link) =>
   })
 );
 
-// shuffle slider
+// shuffle slider color
 slider.forEach((bullet) =>
   bullet.addEventListener("click", () => {
     let previosActiveBullet = document.querySelector(".slider .active-bullet");
@@ -32,6 +33,13 @@ slider.forEach((bullet) =>
     if (previosActiveBullet) {
       previosActiveBullet.classList.remove("active-bullet");
     }
+  })
+);
+
+// shuffle slider image toggle
+slider.forEach((bullet) =>
+  bullet.addEventListener("click", () => {
+    home.style.backgroundImage = `url(${bullet.dataset.image})`;
   })
 );
 

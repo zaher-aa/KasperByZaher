@@ -464,12 +464,17 @@ header .search-icon {
 /* Start Home */
 .home {
   min-height: 100vh;
-  background-image: url("../assets/images/owl.jpg");
+  background-image: url("../assets/images/landing_1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
   z-index: 1000;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .home::after {
@@ -1134,18 +1139,18 @@ a.more:hover {
   margin-bottom: 15px;
 }
 
-.good-side .testimonials .slider {
+.good-side .testimonials .person-slider {
   margin: 20px auto 0;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: intrinsic;
 }
 
-.good-side .testimonials .slider div {
+.good-side .testimonials .person-slider div {
   border-color: var(--paragraph-color);
 }
 
-.good-side .testimonials .slider div.active-bullet {
+.good-side .testimonials .person-slider div.active {
   border-color: var(--primary-color);
 }
 
