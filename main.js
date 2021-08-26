@@ -72,10 +72,10 @@ filter.forEach((btn) =>
   })
 );
 
-showSearchOverlay.addEventListener("click", () => {
+showSearchOverlay.onclick = () => {
   searchOverlay.classList.remove("close");
-});
+};
 
-unshowSearchOverlay.addEventListener("click", () => {
+unshowSearchOverlay.onclick = () => {
   searchOverlay.classList.add("close");
-});
+};
