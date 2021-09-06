@@ -183,3 +183,8 @@ footer .main ul li:not(:last-child) {
 header .container nav .other-language {
   padding: 5px 10px;
 }
+
+.bars {
+  margin-left: 0;
+  margin-right: 20px;
+}
