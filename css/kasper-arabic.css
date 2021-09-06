@@ -9,6 +9,13 @@ header .container nav ul li a {
 header form {
   margin-left: 0;
   margin-right: 20px;
+  border-left: none;
+  border-right: 1px solid var(--secondery-color);
+}
+
+header .search-icon {
+  right: auto;
+  left: 0;
 }
 
 .home .content .content-container h1 {
