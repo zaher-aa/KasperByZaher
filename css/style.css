@@ -378,6 +378,49 @@ header .container nav ul li a:focus {
   outline: none;
 }
 
+header .container nav .other-language {
+  color: white;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+  background-color: #db067c;
+  padding: 3px 10px 8px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+header .container nav .other-language::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 20px);
+  height: 10px;
+  background-color: white;
+  left: 100%;
+  top: -10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transition: left 0.5s, top 0.5s, opacity 0s 0.5s;
+  -webkit-transition: left 0.5s, top 0.5s, opacity 0s 0.5s;
+  -moz-transition: left 0.5s, top 0.5s, opacity 0s 0.5s;
+  -ms-transition: left 0.5s, top 0.5s, opacity 0s 0.5s;
+  -o-transition: left 0.5s, top 0.5s, opacity 0s 0.5s;
+}
+
+header .container nav .other-language:hover::after {
+  left: -100%;
+  top: 20px;
+  opacity: 0;
+}
+
 .active {
   color: var(--primary-color) !important;
   position: relative;
@@ -421,6 +464,7 @@ header .search-icon {
   font-size: 16px;
   cursor: pointer;
   display: none;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
