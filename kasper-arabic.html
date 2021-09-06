@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- meta tags for website info when sharing it's URL like: thumbnail, title... -->
+    <meta
+      property="og:url"
+      content="https://zaher-aa.github.io/KasperByZaher/"
+    />
+    <meta property="og:type" content="portfolio" />
+    <meta property="og:title" content="Kasper By Zaher" />
+    <meta
+      property="og:description"
+      content="This website was made by Zaher Abu Amr While Practicing HTML and CSS. It's completely Responsive, you can use in on any screen you have"
+    />
+    <meta property="og:image" content="./assets/images/logo.png" />
+    <!-- site description -->
+    <meta
+      name="description"
+      content="This website was made by Zaher Abu Amr While Practicing HTML and CSS. It's completely Responsive, you can use in on any screen you have"
+    />
+    <title>Kasper || Zaher</title>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" />
+    <!-- google fonts (Cairo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- normalize file -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- arabic css file -->
+    <link rel="stylesheet" href="./css/kasper-arabic.css" />
+  </head>
+  <body>
+    <!-- Start Scroll-To-Top -->
+    <a class="scroll-to-top" href="#home" title="Go To Home">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- End Scroll-To-Top -->
+    <!-- Start Header -->
+    <header>
+      <!-- Start Search Overlay -->
+      <div class="search-overlay close">
+        <button title="Close" type="button"><i class="fa fa-times"></i></button>
+        <input
+          title="Search Here"
+          type="text"
+          name="search"
+          id="search-feild"
+          placeholder="ابحث هنا..."
+          autofocus
+        />
+      </div>
+      <!-- End Search Overlay -->
+      <div class="container">
+        <a href="https://zaher-aa.github.io/KasperByZaher/" class="logo">
+          <img src="./assets/images/logo.png" alt="Logo" title="Logo" />
+        </a>
+        <nav>
+          <ul>
+            <li><a class="active" title="Home" href="#home">الرئيسية</a></li>
+            <li><a title="Services" href="#services">الخدمات</a></li>
+            <li><a title="Portfolio" href="#portfolio">أعمالنا</a></li>
+            <li><a title="About" href="#about">حول</a></li>
+            <li><a title="Pricing" href="#pricing">التسعير</a></li>
+            <li><a title="Contact" href="#contact">راسلنا</a></li>
+          </ul>
+          <a href="./index.html" class="other-language">English</a>
+          <i class="fas fa-bars bars"></i>
+          <form action="" title="Search">
+            <i class="fa fa-search search-icon"></i>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Home -->
+    <section id="home" class="home">
+      <i title="Next" class="fas fa-chevron-right arrow-right"></i>
+      <i title="Previous" class="fas fa-chevron-left arrow-left"></i>
+      <div class="content">
+        <div class="content-container">
+          <h1>
+            مرحبا بالعالم! <br />
+            نحن كاسبر ، نصنع الفن.
+          </h1>
+          <p>
+            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية
+            تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى
+            النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً
+            أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+          </p>
+        </div>
+      </div>
+      <div class="slider">
+        <div
+          class="active-bullet"
+          data-image="./assets/images/landing_1.jpg"
+        ></div>
+        <div data-image="./assets/images/landing_2.jpg"></div>
+        <div data-image="./assets/images/landing_3.jpg"></div>
+      </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <h1 class="special-heading">الخدمات</h1>
+        <p>
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </p>
+        <div class="services-container">
+          <div class="service">
+            <i class="fas fa-tv"></i>
+            <div class="info">
+              <h3>عنوان فريد رائع</h3>
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
+                العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <i class="fas fa-cog"></i>
+            <div class="info">
+              <h3>عنوان فريد رائع</h3>
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
+                العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <i class="fas fa-pencil-ruler"></i>
+            <div class="info">
+              <h3>عنوان فريد رائع</h3>
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
+                العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم.
+              </p>
+            </div>
+          </div>
+          <div class="service">
+            <i class="fas fa-camera"></i>
+            <div class="info">
+              <h3>عنوان فريد رائع</h3>
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات
+                العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Design -->
+    <section class="design">
+      <div class="image">
+        <img src="./assets/images/mobile.png" alt="Mobile" />
+      </div>
+      <div class="text">
+        <h3>تصميمنا يأتي مع....</h3>
+        <ul>
+          <li>تصميم متجاوب</li>
+          <li>تصميم عصري وواضح</li>
+          <li>كود خالي من الأخطاء</li>
+          <li>متجاوب مع المتصفحات</li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Design -->
+    <!-- Start Portfolio -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h1 class="special-heading">أعمالنا</h1>
+        <p>
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </p>
+        <ul class="filter">
+          <li
+            tabindex="1"
+            title="All"
+            data-category="all"
+            class="active-filter"
+          >
+            الكل
+          </li>
+          <li tabindex="1" title="App" data-category="app">التطبيقات</li>
+          <li tabindex="1" title="Photography" data-category="photography">
+            التصوير
+          </li>
+          <li tabindex="1" title="Web" data-category="web">الويب</li>
+          <li tabindex="1" title="Print" data-category="print">الطباعة</li>
+        </ul>
+      </div>
+      <div class="boxes-container">
+        <div class="box show" data-category="app">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-01.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>التطبيقات</p>
+          </div>
+        </div>
+        <div class="box show" data-category="app">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-02.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>التطبيقات</p>
+          </div>
+        </div>
+        <div class="box show" data-category="photography">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-03.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>التصوير</p>
+          </div>
+        </div>
+        <div class="box show" data-category="photography">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-04.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>التصوير</p>
+          </div>
+        </div>
+        <div class="box show" data-category="print">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-05.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>الطباعة</p>
+          </div>
+        </div>
+        <div class="box show" data-category="print">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-06.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>الطباعة</p>
+          </div>
+        </div>
+        <div class="box show" data-category="web">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-07.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>الويب</p>
+          </div>
+        </div>
+        <div class="box show" data-category="web">
+          <a href="#"><i class="fas fa-plus"></i></a>
+          <img src="./assets/images/shuffle-08.jpg" alt="" />
+          <div class="caption">
+            <h3>صورة رائعة</h3>
+            <p>الويب</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="more">المزيد</a>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Start Video -->
+    <section class="video">
+      <video loop muted autoplay>
+        <source src="./assets/videos/awesome-video.mp4" type="video/mp4" />
+        Sorry, Your Browser Doesn't Support Videos
+      </video>
+      <div class="text">
+        <h3>فيديو رائغ للغابة هنا</h3>
+        <p>انه كل ما تريد</p>
+        <button>أرني المزيد</button>
+      </div>
+    </section>
+    <!-- End Video -->
+    <!-- Start About -->
+    <section id="about" class="about">
+      <div class="container">
+        <h1 class="special-heading">حول</h1>
+        <p>
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </p>
+        <img src="./assets/images/about.png" alt="" />
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Start Statistics -->
+    <div class="statistics">
+      <div class="container">
+        <div class="statistics-container">
+          <div class="statistic">
+            <i class="fas fa-mug-hot"></i>
+            <div class="number">1,263</div>
+            <div class="category">قهوة</div>
+          </div>
+          <div class="statistic">
+            <i class="far fa-folder"></i>
+            <div class="number">256</div>
+            <div class="category">مشاريع مكتملة</div>
+          </div>
+          <div class="statistic">
+            <i class="fas fa-mail-bulk"></i>
+            <div class="number">1,743</div>
+            <div class="category">بريد الكتروني</div>
+          </div>
+          <div class="statistic">
+            <i class="fas fa-medal"></i>
+            <div class="number">17</div>
+            <div class="category">جائزة</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Statistics -->
+    <!-- Start Good Side -->
+    <div class="good-side">
+      <div class="container">
+        <div class="testimonials">
+          <h3 class="sub-heading">التوصيات</h3>
+          <p>
+            إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+            هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+          </p>
+          <div class="user">
+            <img
+              src="./assets/images/testimonials_1.jpg"
+              alt="Person"
+              title="User"
+            />
+            <div class="info">
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما .
+              </p>
+              <span class="name">محمد زكي</span>
+            </div>
+          </div>
+          <div class="user">
+            <img
+              src="./assets/images/testimonials_2.jpg"
+              alt="Person"
+              title="User"
+            />
+            <div class="info">
+              <p>
+                هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن
+                الغالبية تم تعديلها بشكل ما .
+              </p>
+              <span class="name">علي المصري</span>
+            </div>
+          </div>
+          <div class="person-slider">
+            <div class="active"></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="skills">
+          <h3 class="sub-heading">المهارات</h3>
+          <p>
+            إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+            هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+          </p>
+          <div class="skill">
+            <p class="name">adobe</p>
+            <div class="progress-bar">
+              <span
+                class="progress"
+                style="width: 95%"
+                data-progress="95%"
+              ></span>
+            </div>
+          </div>
+          <div class="skill">
+            <p class="name">html & css</p>
+            <div class="progress-bar">
+              <span
+                class="progress"
+                style="width: 93%"
+                data-progress="93%"
+              ></span>
+            </div>
+          </div>
+          <div class="skill">
+            <p class="name">javascript</p>
+            <div class="progress-bar">
+              <span
+                class="progress"
+                style="width: 85%"
+                data-progress="85%"
+              ></span>
+            </div>
+          </div>
+          <div class="skill">
+            <p class="name">php</p>
+            <div class="progress-bar">
+              <span
+                class="progress"
+                style="width: 87%"
+                data-progress="87%"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Good Side -->
+    <!-- Start Quote -->
+    <div class="quote">
+      <div class="container">
+        <q>
+          تعلمت أن أحب للناس جميعاً وتعلمت أن لا شيء مستحيل مع الجهد والاجتهاد.
+        </q>
+        <span>شخص حكيم</span>
+      </div>
+    </div>
+    <!-- End Quote -->
+    <!-- Start Pricing -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h1 class="special-heading">التسعير</h1>
+        <p>
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </p>
+        <div class="prices-container">
+          <div class="box">
+            <div class="top">
+              <div class="category">أساسي</div>
+              <div class="price">19</div>
+            </div>
+            <ul>
+              <li>ميزة رقم 1</li>
+              <li>ميزة اضافية</li>
+              <li>ميزة رقم 2</li>
+              <li>ميزة</li>
+            </ul>
+            <a href="#" class="buy-now">اشترِ الآن</a>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="category">جودة عالية</div>
+              <div class="price">29</div>
+            </div>
+            <ul>
+              <li>ميزة رقم 1</li>
+              <li>ميزة اضافية</li>
+              <li>ميزة رقم 2</li>
+              <li>ميزة</li>
+            </ul>
+            <a href="#" class="buy-now">اشترِ الآن</a>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="category">الفاخرة</div>
+              <div class="price">39</div>
+            </div>
+            <ul>
+              <li>ميزة رقم 1</li>
+              <li>ميزة اضافية</li>
+              <li>ميزة رقم 2</li>
+              <li>ميزة</li>
+            </ul>
+            <a href="#" class="buy-now">اشترِ الآن</a>
+          </div>
+          <div class="box">
+            <div class="top">
+              <div class="category">القصوى</div>
+              <div class="price">49</div>
+            </div>
+            <ul>
+              <li>ميزة رقم 1</li>
+              <li>ميزة اضافية</li>
+              <li>ميزة رقم 2</li>
+              <li>ميزة</li>
+            </ul>
+            <a href="#" class="buy-now">اشترِ الآن</a>
+          </div>
+        </div>
+        <div class="contact-us">
+          <p>اتصل بنا إذا كان لديك طلب خاص</p>
+          <a href="#contact">راسلنا</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing -->
+    <!-- Start Subscribe -->
+    <section class="subscribe">
+      <div class="container">
+        <form action="" method="GET">
+          <input type="email" name="email" placeholder="البريد الالكتروني" />
+          <input
+            type="submit"
+            value="اشترك"
+            title="Click it and good things will happen FOREVER"
+          />
+        </form>
+        <div class="text">
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </div>
+      </div>
+    </section>
+    <!-- End Subscribe -->
+    <!-- Start Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h1 class="special-heading">راسلنا</h1>
+        <p>
+          إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس
+          هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.
+        </p>
+        <div class="contact-container">
+          <form action="" method="GET">
+            <input type="text" placeholder="الاسم" name="name" />
+            <input type="email" placeholder="البريد الالكتروني" name="email" />
+            <textarea name="message" placeholder="الرسالة"></textarea>
+            <input type="submit" value="ارسال" />
+          </form>
+          <div class="info">
+            <h3 class="category">ابقى على تواصل</h3>
+            <p class="text">+00 123.456.789</p>
+            <p class="text">+00 123.456.789</p>
+            <h3 class="category">من نحن</h3>
+            <p class="text">عنوان رائع 17</p>
+            <p class="text">فلسطين, غزة</p>
+            <p class="text">123-4567-890</p>
+            <p class="text">فلسطين</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer>
+      <div class="content">
+        <a href="https://zaher-aa.github.io/KasperByZaher/" class="logo-link"
+          ><img
+            src="./assets/images/logo.png"
+            alt="Logo"
+            title="Logo"
+            class="lgog"
+        /></a>
+        <div class="main">
+          <h1>نحن اجتماعيون</h1>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot">
+          &copy; 2021
+          <span
+            ><a
+              href="https://www.graphberry.com/item/kasper-one-page-psd-template"
+              target="_blank"
+              >Kasper</a
+            ></span
+          >
+          جميع الحقوق محفوظة
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+  </body>
+</html>
