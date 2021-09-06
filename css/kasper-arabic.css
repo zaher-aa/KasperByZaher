@@ -1,0 +1,185 @@
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+header .container nav ul li a {
+  font-size: 1.2rem;
+}
+
+header form {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.home .content .content-container h1 {
+  font-size: 2.3rem;
+}
+
+.home .content .content-container p {
+  font-size: 1.2rem;
+}
+
+.special-heading {
+  font-size: 2.5rem;
+}
+
+.special-heading + p {
+  margin: 40px auto 70px auto;
+  transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+  font-size: 1.2rem;
+}
+
+.services .services-container .service i {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.services .services-container .service .info h3 {
+  font-size: 1.8rem;
+}
+
+.services .services-container .service .info p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .services .services-container .service i {
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.design .text h3 {
+  font-size: 2rem;
+}
+
+.design .text ul li {
+  font-size: 1.2rem;
+}
+
+.design .text ul li::before {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.video .text h3 {
+  font-size: 2rem;
+}
+
+.video .text p {
+  font-size: 1.3rem;
+}
+
+.statistics .statistics-container .statistic .category {
+  font-size: 1.3rem;
+}
+
+.good-side .testimonials .user img {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
+.good-side .skills .skill .progress-bar .progress::before {
+  right: auto;
+  left: -16px;
+}
+
+.good-side .skills .skill .progress-bar .progress::after {
+  right: auto;
+  left: -6px;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+}
+
+.sub-heading + p {
+  font-size: 1.1rem;
+}
+
+.good-side .testimonials .user .info p:first-child {
+  font-size: 1.1rem;
+}
+
+.pricing .prices-container .box .top .price::before {
+  left: auto;
+  right: -22px;
+}
+
+.pricing .prices-container .box .top .price::after {
+  content: "/شهري";
+  right: auto;
+  left: -60px;
+  font-size: 1.2rem;
+}
+
+.quote .container q::before {
+  content: "\f10e";
+}
+
+.quote .container q::after {
+  content: "\f10d";
+}
+
+.quote .container span {
+  font-style: italic;
+}
+
+.pricing .prices-container .box .top .category {
+  font-size: 1.5rem;
+}
+
+.pricing .prices-container .box .buy-now {
+  font-size: 1.2rem;
+}
+
+.pricing .prices-container .box ul li {
+  font-size: 1.1rem;
+}
+
+.pricing .contact-us p {
+  font-size: 1.5rem;
+}
+
+.pricing .contact-us a {
+  font-size: 1.3rem;
+}
+
+.subscribe .container form::before {
+  left: auto;
+  right: 20px;
+}
+
+.subscribe .container form input[type="email"] {
+  padding: 10px 60px 10px 10px;
+}
+
+.contact .contact-container .info {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.contact .contact-container .info h3.category {
+  font-size: 1.3rem;
+}
+
+.contact .contact-container .info p.text {
+  font-size: 1.1rem;
+}
+
+.contact .contact-container form input[type="submit"] {
+  font-size: 1.3rem;
+}
+
+footer .main ul li:not(:last-child) {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+header .container nav .other-language {
+  padding: 5px 10px;
+}
