@@ -87,7 +87,7 @@ header .search-icon {
 
 .good-side .testimonials .user img {
   margin-right: 0;
-  margin-left: 50px;
+  margin-left: 50.0001px;
 }
 
 .good-side .skills .skill .progress-bar .progress::before {
