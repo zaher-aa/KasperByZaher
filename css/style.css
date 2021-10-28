@@ -1236,6 +1236,11 @@ a.more:hover {
   background-color: var(--primary-color);
   height: 100%;
   display: block;
+  transition: 0.7s ease-out;
+  -webkit-transition: 0.7s ease-out;
+  -moz-transition: 0.7s ease-out;
+  -ms-transition: 0.7s ease-out;
+  -o-transition: 0.7s ease-out;
 }
 
 .good-side .skills .skill .progress-bar .progress::before {

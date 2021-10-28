@@ -79,3 +79,17 @@ showSearchOverlay.onclick = () => {
 unshowSearchOverlay.onclick = () => {
   searchOverlay.classList.add("close");
 };
+
+// Animated Progress Bar
+const progressBars = document.querySelectorAll(
+  ".good-side .skills .skill .progress-bar .progress"
+);
+const goodSideSection = document.querySelector(".good-side");
+
+window.onscroll = () => {
+  if (window.scrollY >= goodSideSection.offsetTop - 350) {
+    progressBars.forEach((p) => {
+      p.style.width = p.dataset.progress;
+    });
+  }
+};
